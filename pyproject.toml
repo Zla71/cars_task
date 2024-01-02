@@ -1,0 +1,5 @@
+[project]
+
+name = "classic car"
+version = "0.1"
+dependencies = ["pandas",]
