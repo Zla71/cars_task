@@ -27,7 +27,7 @@ For all these tasks are used some pandas methods and functions, OOP programming,
 ## Instructions
 
 1. Download the package.
-2. Change the routes of "json_file_path", "log_file_path" and "export_location" of files in **CarsTask class** in file **car_task_class.py**.
+2. Change the routes of "json_file_path", "log_file_path" and "export_location" variables in **CarsTask class** in file **car_task_class.py**.
 3. Now you can start the **car_task_class.py**.
 4. Check the output console.
 5. Check the **output.csv**.
@@ -41,40 +41,40 @@ For all these tasks are used some pandas methods and functions, OOP programming,
 
 Here is an example how the Logfile looks like:
 
-11:44:05 --- The process was started..
+13:21:59 --- The process was started..
 
-11:44:07 --- JSON data was read and the data frame was built..
+13:22:01 --- JSON data was read and the data frame was built..
 The number of rows in data frame are: 406 rows
 
-11:44:09 --- The number of unique cars in the dataset was printed..
+13:22:03 --- The number of unique cars in the dataset was printed..
 Number of unique cars in the dataset: 311 cars
 
-11:44:12 --- The average horse power of all the cars was printed..
+13:22:05 --- The average horse power of all the cars was printed..
 Average horse power of all the cars: 105 hp
 
-11:44:17 --- The top 5 most heaviest cars was printed..
+13:22:11 --- The top 5 most heaviest cars was printed..
 
 ... Information about each car on a new row ...
 
-11:44:22 --- The number of cars made by each manufacturer was printed..
+13:22:16 --- The number of cars made by each manufacturer was printed..
 
 Here are the numbers of cars made by manufacturer:
 
 ... Information about each brand on a new row ...
 
-11:44:27 --- The number of cars made each year was printed..
+13:22:21 --- The number of cars made each year was printed..
 
 Here is an information about number of cars build during the years:
 
 ... Information about each year on a new row ...
 
-11:44:32 --- The process of exporting data to CSV file was completed..
+13:22:26 --- The process of exporting data to CSV file was completed..
 
-The csv file could be find here: D:\Python\packages\adastra_pack\output.csv
+The csv file could be find here: D:\Python\packages\car_task_pack\output.csv
 
-The log file could be find here: D:\Python\packages\adastra_pack\log_data.log
+The log file could be find here: D:\Python\packages\car_task_pack\log_data.log
 
-11:44:34 --- Process finished with SUCCESS..
+13:22:28 --- Process finished with SUCCESS..
 
 ---
 
