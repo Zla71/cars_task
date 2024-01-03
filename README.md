@@ -27,7 +27,7 @@ For all these tasks are used some pandas methods and functions, OOP programming,
 ## Instructions
 
 1. Download the package.
-2. Change the routes of "json_file_path", "json_file_path" and "export_location" of files in **CarsTask class** in file **car_task_class.py**.
+2. Change the routes of "json_file_path", "log_file_path" and "export_location" of files in **CarsTask class** in file **car_task_class.py**.
 3. Now you can start the **car_task_class.py**.
 4. Check the output console.
 5. Check the **output.csv**.
