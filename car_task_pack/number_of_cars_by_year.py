@@ -1,4 +1,4 @@
-from adastra_pack import write_log
+from car_task_pack import write_log
 from collections import Counter
 
 def find_number_of_cars_by_year(adastra_class_instance, data_frame, time) -> None:
@@ -13,13 +13,13 @@ def find_number_of_cars_by_year(adastra_class_instance, data_frame, time) -> Non
         print(f"\n{time} --- The number of cars made each year was printed..\n\n")
         print("Here is an information about number of cars build during the years:\n")
 
-        write_log.write_logging(f"\n{time} --- The number of cars made each year was printed..\n\n")
-        write_log.write_logging("Here is an information about number of cars build during the years:\n\n")
+        write_log.write_logging(adastra_class_instance, f"\n{time} --- The number of cars made each year was printed..\n\n")
+        write_log.write_logging(adastra_class_instance, "Here is an information about number of cars build during the years:\n\n")
 
         for year, number_of_cars_per_year in value_counts.items():
             print(f"{year} - {number_of_cars_per_year} cars")
-            write_log.write_logging(f"{year} - {number_of_cars_per_year} cars\n")
+            write_log.write_logging(adastra_class_instance, f"{year} - {number_of_cars_per_year} cars\n")
         
     except Exception as e:
         print(repr(e))
-        write_log.write_logging(e)
+        write_log.write_logging(adastra_class_instance, e)

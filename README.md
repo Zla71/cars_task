@@ -27,8 +27,8 @@ For all these tasks are used some pandas methods and functions, OOP programming,
 ## Instructions
 
 1. Download the package.
-2. Change the routes of "json_file_path" and "export_location" of files in **Adastra class**.
-3. Now you can start the **main_adastra.py**.
+2. Change the routes of "json_file_path", "json_file_path" and "export_location" of files in **CarsTask class** in file **car_task_class.py**.
+3. Now you can start the **car_task_class.py**.
 4. Check the output console.
 5. Check the **output.csv**.
 6. Check the **log_data.log**.
@@ -82,7 +82,7 @@ The log file could be find here: D:\Python\packages\adastra_pack\log_data.log
 <a name="testing"></a>
 ## Testing
 
-1. Open the **testing_adastra.py**.
+1. Open the **tests_car_task.py**.
 2. Start the file and you will see the resulsts in the **Console**.
 
 ---
