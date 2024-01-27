@@ -2,10 +2,10 @@ import pandas as pd
 import json
 
 
-def open_json_file(adastra_class_instance) -> list:
+def open_json_file(car_task_class_instance) -> list:
     """This method open the json file and loads the dataset."""
     try:
-        with open(adastra_class_instance.json_file_path, "r") as file:
+        with open(car_task_class_instance.json_file_path, "r") as file:
             data = json.load(file)
         return data
     except Exception as e:
